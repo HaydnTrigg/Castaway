@@ -1,0 +1,10 @@
+/*
+    Compile unit: C:\CW_RVL\PowerPC_EABI_Support\Msl\MSL_C\MSL_Common\Include\cmath
+    Producer: MW EABI PPC C-Compiler
+    Language: C++
+    Code range: 0x8030D514 -> 0x8030D518
+*/
+// Range: 0x8030D514 -> 0x8030D518
+float fmod() {}
+
+

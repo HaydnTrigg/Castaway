@@ -1,0 +1,13 @@
+/*
+    Compile unit: C:\Wii\CW_RVL\PowerPC_EABI_Support\Msl\MSL_C\MSL_Common\Include\cctype
+    Producer: MW EABI PPC C-Compiler
+    Language: C++
+    Code range: 0x8015D2A8 -> 0x8015D2F0
+*/
+// Range: 0x8015D2A8 -> 0x8015D2F0
+int isdigit() {
+    // References
+    // -> struct __locale _current_locale;
+}
+
+

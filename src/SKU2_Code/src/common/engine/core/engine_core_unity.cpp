@@ -1,0 +1,5 @@
+#include "engine/core/background.cpp"
+#include "engine/core/e_app.cpp"
+#include "engine/core/e_engine.cpp"
+#include "engine/core/e_main.cpp"
+#include "engine/core/e_scene.cpp"

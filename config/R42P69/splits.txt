@@ -13,10 +13,10 @@ Sections:
 	.sdata2     type:rodata align:32
 	.sbss2      type:bss align:32
 
-bomb.cpp:
-	.sbss       start:0x805DB668 end:0x805DB670
+SKU2_Code/src/target/game/simulator/core/bomb.cpp:
+	.sbss       start:0x805DB668 end:0x805DB669
 
-syncaudio.cpp:
+SKU2_Code/src/target/game/simulator/core/syncaudio.cpp:
 	.text       start:0x80006940 end:0x80007B40
 	.text       start:0x80007B40 end:0x80007BF0
 	.text       start:0x80007BF0 end:0x80007CB4
@@ -26,11 +26,11 @@ syncaudio.cpp:
 	.text       start:0x80007D04 end:0x80007D60
 	.sdata2     start:0x805DCEC0 end:0x805DCED8
 
-objectdatafactory.cpp:
+SKU2_Code/src/target/game/simulator/objectdata/objectdatafactory.cpp:
 	.text       start:0x80007D60 end:0x80007DDC
 	.sbss       start:0x805DB670 end:0x805DB688
 
-game_animation_unity.cpp:
+SKU2_Code/src/target/game/animation/game_animation_unity.cpp:
 	.text       start:0x80007DDC end:0x800168D0
 	.text       start:0x800168D0 end:0x80016B84
 	.text       start:0x80016B84 end:0x80016CE4
@@ -154,7 +154,7 @@ game_animation_unity.cpp:
 	.sbss       start:0x805DB688 end:0x805DB6A0
 	.sdata2     start:0x805DCED8 end:0x805DD080
 
-game_cas_unity.cpp:
+SKU2_Code/src/target/game/cas/game_cas_unity.cpp:
 	.text       start:0x800294E8 end:0x80029528
 	.text       start:0x80029528 end:0x80029660
 	.text       start:0x80029660 end:0x800296E8
@@ -268,7 +268,7 @@ game_cas_unity.cpp:
 	.sbss       start:0x805DB6A0 end:0x805DB6B8
 	.sdata2     start:0x805DD158 end:0x805DD2E8
 
-game_interactor_unity.cpp:
+SKU2_Code/src/target/game/interactor/game_interactor_unity.cpp:
 	.text       start:0x8004DE60 end:0x80050DA0
 	.text       start:0x80050DA0 end:0x800511D4
 	.text       start:0x800511D4 end:0x80051418
@@ -380,7 +380,7 @@ game_interactor_unity.cpp:
 	.sbss       start:0x805DB6B8 end:0x805DB720
 	.sdata2     start:0x805DD2E8 end:0x805DD3E0
 
-game_level_unity.cpp:
+SKU2_Code/src/target/game/level/game_level_unity.cpp:
 	.text       start:0x800824EC end:0x80082BE4
 	.text       start:0x80082BE4 end:0x80082C58
 	.text       start:0x80082C58 end:0x80082DAC
@@ -474,7 +474,7 @@ game_level_unity.cpp:
 	.sbss       start:0x805DB720 end:0x805DB788
 	.sdata2     start:0x805DD3E0 end:0x805DD4F0
 
-game_misc_unity.cpp:
+SKU2_Code/src/target/game/game_misc_unity.cpp:
 	.text       start:0x8009B638 end:0x8009BD24
 	.text       start:0x8009BD24 end:0x8009BF6C
 	.text       start:0x8009BF6C end:0x8009BFE0
@@ -501,7 +501,7 @@ game_misc_unity.cpp:
 	.sbss       start:0x805DB788 end:0x805DB7B0
 	.sdata2     start:0x805DD4F0 end:0x805DD518
 
-game_simulator_core2_unity.cpp:
+SKU2_Code/src/target/game/simulator/core/game_simulator_core2_unity.cpp:
 	.text       start:0x800A1178 end:0x800A1268
 	.text       start:0x800A1268 end:0x800A176C
 	.text       start:0x800A176C end:0x800A1824
@@ -643,7 +643,7 @@ game_simulator_core2_unity.cpp:
 	.sbss       start:0x805DB7B0 end:0x805DB890
 	.sdata2     start:0x805DD518 end:0x805DD648
 
-game_simulator_core_unity.cpp:
+SKU2_Code/src/target/game/simulator/core/game_simulator_core_unity.cpp:
 	.text       start:0x800EEE9C end:0x800EFED8
 	.text       start:0x800EFED8 end:0x800F7A34
 	.text       start:0x800F7A34 end:0x800F98DC
@@ -823,7 +823,7 @@ game_simulator_core_unity.cpp:
 	.sbss       start:0x805DB890 end:0x805DB9F8
 	.sdata2     start:0x805DD648 end:0x805DD788
 
-game_simulator_objectdata_unity.cpp:
+SKU2_Code/src/target/game/simulator/objectdata/game_simulator_objectdata_unity.cpp:
 	.text       start:0x8015D97C end:0x8015E51C
 	.text       start:0x8015E51C end:0x8015E524
 	.text       start:0x8015E524 end:0x8015E6F8
@@ -857,7 +857,7 @@ game_simulator_objectdata_unity.cpp:
 	.sdata      start:0x805D8998 end:0x805D89B8
 	.sbss       start:0x805DB9F8 end:0x805DBA10
 
-game_simulator_utility_unity.cpp:
+SKU2_Code/src/target/game/simulator/utility/game_simulator_utility_unity.cpp:
 	.text       start:0x801645FC end:0x801650AC
 	.text       start:0x801650AC end:0x801650B4
 	.text       start:0x801650B4 end:0x80167090
@@ -889,7 +889,7 @@ game_simulator_utility_unity.cpp:
 	.sbss       start:0x805DBA10 end:0x805DBA28
 	.sdata2     start:0x805DD788 end:0x805DD7F0
 
-game_statemachine_unity.cpp:
+SKU2_Code/src/target/game/statemachine/game_statemachine_unity.cpp:
 	.text       start:0x8016A62C end:0x8016B318
 	.text       start:0x8016B318 end:0x8016C084
 	.text       start:0x8016C084 end:0x8016C0D8
@@ -963,7 +963,7 @@ game_statemachine_unity.cpp:
 	.sbss       start:0x805DBA28 end:0x805DBA70
 	.sdata2     start:0x805DD7F0 end:0x805DD888
 
-game_ui_core_unity.cpp:
+SKU2_Code/src/target/game/ui/core/game_ui_core_unity.cpp:
 	.text       start:0x8017BBB8 end:0x8017BEA4
 	.text       start:0x8017BEA4 end:0x8017BF0C
 	.text       start:0x8017BF0C end:0x8017C2F4
@@ -1002,7 +1002,7 @@ game_ui_core_unity.cpp:
 	.sbss       start:0x805DBA70 end:0x805DBAA8
 	.sdata2     start:0x805DD888 end:0x805DD8E8
 
-game_ui_targets_cas_unity.cpp:
+SKU2_Code/src/target/game/ui/targets/game_ui_targets_cas_unity.cpp:
 	.text       start:0x80188694 end:0x8018C448
 	.text       start:0x8018C448 end:0x8018C4D4
 	.text       start:0x8018C4D4 end:0x8018CC0C
@@ -1042,7 +1042,7 @@ game_ui_targets_cas_unity.cpp:
 	.sbss       start:0x805DBAA8 end:0x805DBAB0
 	.sdata2     start:0x805DD8E8 end:0x805DD908
 
-game_ui_targets_s2c_unity.cpp:
+SKU2_Code/src/target/game/ui/targets/game_ui_targets_s2c_unity.cpp:
 	.text       start:0x8019AD0C end:0x8019BE38
 	.text       start:0x8019BE38 end:0x8019C168
 	.text       start:0x8019C168 end:0x8019C1C4
@@ -1109,7 +1109,7 @@ game_ui_targets_s2c_unity.cpp:
 	.sbss       start:0x805DBAB0 end:0x805DBB08
 	.sdata2     start:0x805DD908 end:0x805DDF08
 
-game_ui_targets_tsc5_unity.cpp:
+SKU2_Code/src/target/game/ui/targets/game_ui_targets_tsc5_unity.cpp:
 	.text       start:0x801C2080 end:0x801C4A68
 	.text       start:0x801C4A68 end:0x801C4A8C
 	.text       start:0x801C4A8C end:0x801C92F8
@@ -1170,7 +1170,7 @@ game_ui_targets_tsc5_unity.cpp:
 	.sbss       start:0x805DBB08 end:0x805DBB58
 	.sdata2     start:0x805DDF08 end:0x805DE4D0
 
-game_ui_targets_tsc6_unity.cpp:
+SKU2_Code/src/target/game/ui/targets/game_ui_targets_tsc6_unity.cpp:
 	.text       start:0x801E5A3C end:0x801E6710
 	.text       start:0x801E6710 end:0x801E9458
 	.text       start:0x801E9458 end:0x801EA0E8
@@ -1209,7 +1209,7 @@ game_ui_targets_tsc6_unity.cpp:
 	.sbss       start:0x805DBB58 end:0x805DBB78
 	.sdata2     start:0x805DE4D0 end:0x805DE7A8
 
-game_unity.cpp:
+SKU2_Code/src/target/game/game_unity.cpp:
 	.text       start:0x801F62D0 end:0x801F6D78
 	.text       start:0x801F6D78 end:0x801F6DB0
 	.text       start:0x801F6DB0 end:0x801F6FFC
@@ -1403,7 +1403,7 @@ game_unity.cpp:
 	.sbss       start:0x805DBB78 end:0x805DBDC0
 	.sdata2     start:0x805DE7A8 end:0x805DEB68
 
-game_wii_unity.cpp:
+SKU2_Code/src/target/game/wii/game_wii_unity.cpp:
 	.text       start:0x80246654 end:0x80246ED4
 	.text       start:0x80246ED4 end:0x80246EE8
 	.text       start:0x80246EE8 end:0x80246EF0
@@ -1421,7 +1421,7 @@ game_wii_unity.cpp:
 	.sbss       start:0x805DBDC0 end:0x805DBDD0
 	.sdata2     start:0x805DEB68 end:0x805DEBB8
 
-weather_unity.cpp:
+SKU2_Code/src/target/game/weather/weather_unity.cpp:
 	.text       start:0x802483D4 end:0x80248F7C
 	.text       start:0x80248F7C end:0x80248FF0
 	.text       start:0x80248FF0 end:0x8024907C
@@ -1444,7 +1444,7 @@ weather_unity.cpp:
 	.sbss       start:0x805DBDD0 end:0x805DBDD8
 	.sdata2     start:0x805DEBB8 end:0x805DEC10
 
-base_core_engine_dependencies_unity.cpp:
+SKU2_Code/src/common/base/core/base_core_engine_dependencies_unity.cpp:
 	.text       start:0x8024DB50 end:0x8024DDDC
 	.text       start:0x8024DDDC end:0x80250AF0
 	.text       start:0x80250AF0 end:0x80250B6C
@@ -1460,7 +1460,7 @@ base_core_engine_dependencies_unity.cpp:
 	.sbss       start:0x805DBDD8 end:0x805DBE50
 	.sdata2     start:0x805DEC10 end:0x805DEC78
 
-base_core_unity.cpp:
+SKU2_Code/src/common/base/core/base_core_unity.cpp:
 	.text       start:0x8025C738 end:0x8025EC24
 	.text       start:0x8025EC24 end:0x8025EEB4
 	.text       start:0x8025EEB4 end:0x8025EF30
@@ -1524,7 +1524,7 @@ base_core_unity.cpp:
 	.sbss       start:0x805DBE50 end:0x805DBE88
 	.sdata2     start:0x805DEC78 end:0x805DED08
 
-base_ngc_unity.cpp:
+SKU2_Code/src/common/base/ngc/base_ngc_unity.cpp:
 	.text       start:0x802796CC end:0x80279A70
 	.text       start:0x80279A70 end:0x80279DA0
 	.text       start:0x80279DA0 end:0x8027A154
@@ -1538,12 +1538,12 @@ base_ngc_unity.cpp:
 	.sdata      start:0x805DA228 end:0x805DA2A0
 	.sbss       start:0x805DBE88 end:0x805DBE90
 
-e_cheatmenu.cpp:
+SKU2_Code/src/common/engine/utility/e_cheatmenu.cpp:
 	.text       start:0x8027AFC8 end:0x8027B0DC
 	.ctors      start:0x8041A7CC end:0x8041A7D0
 	.bss        start:0x804F7028 end:0x804F7040
 
-engine_core_unity.cpp:
+SKU2_Code/src/common/engine/core/engine_core_unity.cpp:
 	.text       start:0x8027B0DC end:0x8027B634
 	.text       start:0x8027B634 end:0x8027BD84
 	.text       start:0x8027BD84 end:0x8027BDB8
@@ -1559,7 +1559,7 @@ engine_core_unity.cpp:
 	.sbss       start:0x805DBE90 end:0x805DBEE0
 	.sdata2     start:0x805DED08 end:0x805DED40
 
-engine_effects2_unity.cpp:
+SKU2_Code/src/common/engine/effects/engine_effects2_unity.cpp:
 	.text       start:0x8027D4D8 end:0x8027D564
 	.text       start:0x8027D564 end:0x8027DBB0
 	.text       start:0x8027DBB0 end:0x8027DBB8
@@ -1572,7 +1572,7 @@ engine_effects2_unity.cpp:
 	.sbss       start:0x805DBEE0 end:0x805DBEF8
 	.sdata2     start:0x805DED40 end:0x805DEDC0
 
-engine_effects_unity.cpp:
+SKU2_Code/src/common/engine/effects/engine_effects_unity.cpp:
 	.text       start:0x80281630 end:0x80281954
 	.text       start:0x80281954 end:0x80281AF8
 	.text       start:0x80281AF8 end:0x8028202C
@@ -1588,7 +1588,7 @@ engine_effects_unity.cpp:
 	.sbss       start:0x805DBEF8 end:0x805DBF08
 	.sdata2     start:0x805DEDC0 end:0x805DEE00
 
-engine_graphics_unity.cpp:
+SKU2_Code/src/common/engine/graphics/engine_graphics_unity.cpp:
 	.text       start:0x80283568 end:0x80286F04
 	.text       start:0x80286F04 end:0x80286F78
 	.text       start:0x80286F78 end:0x80290DB0
@@ -1635,7 +1635,7 @@ engine_graphics_unity.cpp:
 	.sbss       start:0x805DBF08 end:0x805DBF78
 	.sdata2     start:0x805DEE00 end:0x805DEEC0
 
-engine_manager_unity.cpp:
+SKU2_Code/src/common/engine/manager/engine_manager_unity.cpp:
 	.text       start:0x802A6F30 end:0x802A7C78
 	.text       start:0x802A7C78 end:0x802A7CEC
 	.text       start:0x802A7CEC end:0x802A7D60
@@ -1695,7 +1695,7 @@ engine_manager_unity.cpp:
 	.sbss       start:0x805DBF78 end:0x805DBF80
 	.sdata2     start:0x805DEEC0 end:0x805DEEC8
 
-engine_ngc_unity.cpp:
+SKU2_Code/src/common/engine/ngc/engine_ngc_unity.cpp:
 	.text       start:0x802AEAE4 end:0x802AFBF0
 	.text       start:0x802AFBF0 end:0x802AFBFC
 	.text       start:0x802AFBFC end:0x802B1488
@@ -1753,7 +1753,7 @@ engine_ngc_unity.cpp:
 	.sdata2     start:0x805DEEC8 end:0x805DF0F0
 	.sbss2      start:0x805E00E8 end:0x805E00F0
 
-engine_resource_unity.cpp:
+SKU2_Code/src/common/engine/resource/engine_resource_unity.cpp:
 	.text       start:0x802D2590 end:0x802D4294
 	.text       start:0x802D4294 end:0x802D513C
 	.text       start:0x802D513C end:0x802D6C44
@@ -1817,7 +1817,7 @@ engine_resource_unity.cpp:
 	.sbss       start:0x805DC0F8 end:0x805DC170
 	.sdata2     start:0x805DF0F0 end:0x805DF1A0
 
-engine_utility_unity.cpp:
+SKU2_Code/src/common/engine/utility/engine_utility_unity.cpp:
 	.text       start:0x802F18CC end:0x802F265C
 	.text       start:0x802F265C end:0x802F2980
 	.text       start:0x802F2980 end:0x802F2EC8
@@ -1849,20 +1849,20 @@ engine_utility_unity.cpp:
 string_1.cpp:
 	.sbss       start:0x805DC1B8 end:0x805DC1C0
 
-fixed_pool.cpp:
+SKU2_Code/src/common/Eastl/1.03.00/source/fixed_pool.cpp:
 	.text       start:0x802FC29C end:0x802FC304
 
-hashtable.cpp:
+SKU2_Code/src/common/Eastl/1.03.00/source/hashtable.cpp:
 	.text       start:0x802FC304 end:0x802FC51C
 	.text       start:0x802FC51C end:0x802FC568
 	.rodata     start:0x8041EF78 end:0x8041F380
 	.sdata      start:0x805DA568 end:0x805DA580
 	.sdata2     start:0x805DF210 end:0x805DF218
 
-red_black_tree.cpp:
+SKU2_Code/src/common/Eastl/1.03.00/source/red_black_tree.cpp:
 	.text       start:0x802FC568 end:0x802FCE5C
 
-Apt.cpp:
+Tsc5/src/target/external/apt/source/Apt/Apt.cpp:
 	.text       start:0x802FCE5C end:0x802FE0FC
 	.text       start:0x802FE0FC end:0x802FE1F4
 	.text       start:0x802FE1F4 end:0x802FEB84
@@ -1895,7 +1895,7 @@ Apt.cpp:
 	.sbss       start:0x805DC1C0 end:0x805DC210
 	.sdata2     start:0x805DF218 end:0x805DF230
 
-AptActionInterpreter.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptActionInterpreter.cpp:
 	.text       start:0x80300688 end:0x8030AD90
 	.text       start:0x8030AD90 end:0x8030AFC4
 	.text       start:0x8030AFC4 end:0x8030B328
@@ -1930,7 +1930,7 @@ AptActionInterpreter.cpp:
 	.sdata      start:0x805DA590 end:0x805DA658
 	.sdata2     start:0x805DF230 end:0x805DF260
 
-AptAnimation.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptAnimation.cpp:
 	.text       start:0x8030D518 end:0x8030FEF8
 	.text       start:0x8030FEF8 end:0x8030FF94
 	.text       start:0x8030FF94 end:0x80310230
@@ -1940,7 +1940,7 @@ AptAnimation.cpp:
 	.data       start:0x80459AE8 end:0x8045A650
 	.sdata2     start:0x805DF260 end:0x805DF270
 
-AptArray.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptArray.cpp:
 	.text       start:0x803105B4 end:0x80312194
 	.text       start:0x80312194 end:0x8031228C
 	.text       start:0x8031228C end:0x80312294
@@ -1953,7 +1953,7 @@ AptArray.cpp:
 	.sdata      start:0x805DA658 end:0x805DA6D8
 	.sbss       start:0x805DC210 end:0x805DC248
 
-AptCharacter.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptCharacter.cpp:
 	.text       start:0x803123DC end:0x8031738C
 	.text       start:0x8031738C end:0x803174AC
 	.text       start:0x803174AC end:0x803176A4
@@ -1970,12 +1970,12 @@ AptCharacter.cpp:
 	.sbss       start:0x805DC248 end:0x805DC2B8
 	.sdata2     start:0x805DF270 end:0x805DF290
 
-AptCharacterInstButton.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptCharacterInstButton.cpp:
 	.text       start:0x80317874 end:0x803178E8
 	.text       start:0x803178E8 end:0x803178FC
 	.data       start:0x8045AEA8 end:0x8045AEC0
 
-AptCIH.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptCIH.cpp:
 	.text       start:0x803178FC end:0x8031A0B8
 	.text       start:0x8031A0B8 end:0x8031A208
 	.text       start:0x8031A208 end:0x8031A388
@@ -1986,7 +1986,7 @@ AptCIH.cpp:
 	.sdata      start:0x805DA740 end:0x805DA750
 	.sdata2     start:0x805DF290 end:0x805DF2F0
 
-AptDate.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptDate.cpp:
 	.text       start:0x8031A67C end:0x8031D7CC
 	.text       start:0x8031D7CC end:0x8031D968
 	.text       start:0x8031D968 end:0x8031D96C
@@ -1997,7 +1997,7 @@ AptDate.cpp:
 	.sbss       start:0x805DC2B8 end:0x805DC350
 	.sdata2     start:0x805DF2F0 end:0x805DF300
 
-AptDisplayList.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptDisplayList.cpp:
 	.text       start:0x8031D9C8 end:0x8031FF0C
 	.text       start:0x8031FF0C end:0x8031FF94
 	.text       start:0x8031FF94 end:0x8031FF98
@@ -2009,17 +2009,17 @@ AptDisplayList.cpp:
 	.sdata      start:0x805DA7B8 end:0x805DA7C0
 	.sdata2     start:0x805DF300 end:0x805DF318
 
-AptGC.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptGC.cpp:
 	.text       start:0x803205FC end:0x80320900
 	.text       start:0x80320900 end:0x80320918
 
-AptInput.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptInput.cpp:
 	.text       start:0x80320918 end:0x80321CAC
 	.text       start:0x80321CAC end:0x80321CC4
 	.data       start:0x8045BD68 end:0x8045C3F8
 	.sdata2     start:0x805DF318 end:0x805DF330
 
-AptLoad.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptLoad.cpp:
 	.text       start:0x80321CC4 end:0x803231EC
 	.text       start:0x803231EC end:0x80323474
 	.text       start:0x80323474 end:0x80323598
@@ -2032,13 +2032,13 @@ AptLoad.cpp:
 	.sdata      start:0x805DA7C0 end:0x805DA7C8
 	.sdata2     start:0x805DF330 end:0x805DF340
 
-AptMath.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptMath.cpp:
 	.text       start:0x803247F0 end:0x80324980
 	.rodata     start:0x8041F760 end:0x8041F770
 	.sbss       start:0x805DC350 end:0x805DC360
 	.sdata2     start:0x805DF340 end:0x805DF348
 
-AptMiscObjects.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptMiscObjects.cpp:
 	.text       start:0x80324980 end:0x80327684
 	.text       start:0x80327684 end:0x803277DC
 	.text       start:0x803277DC end:0x80327978
@@ -2053,27 +2053,27 @@ AptMiscObjects.cpp:
 	.sbss       start:0x805DC360 end:0x805DC3E8
 	.sdata2     start:0x805DF348 end:0x805DF368
 
-AptMovie.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptMovie.cpp:
 	.text       start:0x80327CC0 end:0x803287FC
 
-AptNativeHash.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptNativeHash.cpp:
 	.text       start:0x803287FC end:0x80329580
 	.text       start:0x80329580 end:0x803297E0
 	.text       start:0x803297E0 end:0x80329914
 	.rodata     start:0x8041FAC0 end:0x8041FB10
 	.data       start:0x8045D1F0 end:0x8045D360
 
-AptRand.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptRand.cpp:
 	.text       start:0x80329914 end:0x80329B40
 	.bss        start:0x80545070 end:0x80545A38
 	.sdata      start:0x805DA8E0 end:0x805DA8E8
 	.sbss       start:0x805DC3E8 end:0x805DC3F0
 
-AptRenderingContext.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptRenderingContext.cpp:
 	.text       start:0x80329B40 end:0x8032A010
 	.sdata2     start:0x805DF368 end:0x805DF370
 
-AptSound.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptSound.cpp:
 	.text       start:0x8032A010 end:0x8032A4A4
 	.text       start:0x8032A4A4 end:0x8032A59C
 	.text       start:0x8032A59C end:0x8032A5F8
@@ -2083,19 +2083,19 @@ AptSound.cpp:
 	.sdata      start:0x805DA8E8 end:0x805DA900
 	.sbss       start:0x805DC3F0 end:0x805DC400
 
-AptSpriteMembers.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptSpriteMembers.cpp:
 	.text       start:0x8032A654 end:0x8032A794
 	.rodata     start:0x8041FC10 end:0x8041FD10
 	.data       start:0x8045D498 end:0x8045DE10
 	.sdata      start:0x805DA900 end:0x805DA9D0
 
-AptStageMembers.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptStageMembers.cpp:
 	.text       start:0x8032A794 end:0x8032A8EC
 	.rodata     start:0x8041FD10 end:0x8041FE10
 	.data       start:0x8045DE10 end:0x8045DE78
 	.sdata      start:0x805DA9D0 end:0x805DA9F0
 
-AptString.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptString.cpp:
 	.text       start:0x8032A8EC end:0x8032BE20
 	.text       start:0x8032BE20 end:0x8032BFBC
 	.text       start:0x8032BFBC end:0x8032C0D4
@@ -2106,7 +2106,7 @@ AptString.cpp:
 	.sdata      start:0x805DA9F0 end:0x805DAA30
 	.sbss       start:0x805DC400 end:0x805DC430
 
-AptTextFormat.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptTextFormat.cpp:
 	.text       start:0x8032C138 end:0x8032C7A0
 	.text       start:0x8032C7A0 end:0x8032C8C4
 	.text       start:0x8032C8C4 end:0x8032C944
@@ -2115,7 +2115,7 @@ AptTextFormat.cpp:
 	.sdata      start:0x805DAA30 end:0x805DAAB8
 	.sdata2     start:0x805DF370 end:0x805DF378
 
-AptValue.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptValue.cpp:
 	.text       start:0x8032C944 end:0x8032EFB8
 	.text       start:0x8032EFB8 end:0x8032F180
 	.text       start:0x8032F180 end:0x8032F198
@@ -2135,40 +2135,40 @@ AptValue.cpp:
 	.sbss       start:0x805DC430 end:0x805DC490
 	.sdata2     start:0x805DF378 end:0x805DF388
 
-AptValueFactory.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptValueFactory.cpp:
 	.text       start:0x8032F5E8 end:0x8032F5EC
 
-AptValueGCAllocator.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptValueGCAllocator.cpp:
 	.text       start:0x8032F5EC end:0x8032F8EC
 	.text       start:0x8032F8EC end:0x8032F97C
 	.text       start:0x8032F97C end:0x8032F9C4
 	.sbss       start:0x805DC490 end:0x805DC498
 
-AptGlobalExtensionObject.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptGlobalExtensionObject.cpp:
 	.sbss       start:0x805DC498 end:0x805DC4A0
 
-AptXmlMembers.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptXmlMembers.cpp:
 	.text       start:0x8032F9C4 end:0x8032FAE8
 	.rodata     start:0x80420110 end:0x80420210
 	.data       start:0x8045EEE8 end:0x8045F298
 	.sdata      start:0x805DAB98 end:0x805DABC0
 
-DogmaAllocator.cpp:
+Tsc5/src/target/external/apt/source/Apt/DogmaAllocator.cpp:
 	.text       start:0x8032FAE8 end:0x80330044
 	.text       start:0x80330044 end:0x803300F0
 
-AptGlobalObject.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptObject/AptGlobalObject.cpp:
 	.text       start:0x803300F0 end:0x803301C8
 	.text       start:0x803301C8 end:0x80330224
 	.data       start:0x8045F298 end:0x8045F2E0
 	.sbss       start:0x805DC4A0 end:0x805DC4A8
 
-AptObject.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptObject/AptObject.cpp:
 	.text       start:0x80330224 end:0x80330540
 	.text       start:0x80330540 end:0x8033069C
 	.data       start:0x8045F2E0 end:0x8045F400
 
-AptScriptColour.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptObject/AptScriptColour.cpp:
 	.text       start:0x8033069C end:0x8033126C
 	.text       start:0x8033126C end:0x80331270
 	.text       start:0x80331270 end:0x803312D4
@@ -2177,7 +2177,7 @@ AptScriptColour.cpp:
 	.sbss       start:0x805DC4A8 end:0x805DC4B8
 	.sdata2     start:0x805DF388 end:0x805DF3A0
 
-AptScriptFunction.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptObject/AptScriptFunction.cpp:
 	.text       start:0x803312D4 end:0x80331F84
 	.text       start:0x80331F84 end:0x80331F8C
 	.text       start:0x80331F8C end:0x80332280
@@ -2186,20 +2186,20 @@ AptScriptFunction.cpp:
 	.sdata      start:0x805DABC8 end:0x805DABE0
 	.sbss       start:0x805DC4B8 end:0x805DC4D0
 
-AptXml.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptObject/AptXml.cpp:
 	.text       start:0x80332294 end:0x80332B14
 	.text       start:0x80332B14 end:0x80332B28
 	.text       start:0x80332B28 end:0x80332B58
 	.data       start:0x8045F930 end:0x8045FA20
 	.sbss       start:0x805DC4D0 end:0x805DC4E0
 
-AptXmlAttributes.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptObject/AptXmlAttributes.cpp:
 	.text       start:0x80332B58 end:0x80332CC0
 	.text       start:0x80332CC0 end:0x80332CD4
 	.text       start:0x80332CD4 end:0x80332D04
 	.data       start:0x8045FA20 end:0x8045FA68
 
-AptXmlNode.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptObject/AptXmlNode.cpp:
 	.text       start:0x80332D04 end:0x8033398C
 	.text       start:0x8033398C end:0x803339BC
 	.text       start:0x803339BC end:0x803339D0
@@ -2208,39 +2208,39 @@ AptXmlNode.cpp:
 	.data       start:0x8045FA68 end:0x8045FB90
 	.sbss       start:0x805DC4E0 end:0x805DC4F8
 
-AptBoolean.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptValue/AptBoolean.cpp:
 	.text       start:0x803339F0 end:0x80333A68
 	.text       start:0x80333A68 end:0x80333AD8
 	.text       start:0x80333AD8 end:0x80333AE8
 	.data       start:0x8045FB90 end:0x8045FBD8
 	.sbss       start:0x805DC4F8 end:0x805DC500
 
-AptFloat.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptValue/AptFloat.cpp:
 	.text       start:0x80333AE8 end:0x80333B60
 	.text       start:0x80333B60 end:0x80333BD0
 	.text       start:0x80333BD0 end:0x80333BE0
 	.data       start:0x8045FBD8 end:0x8045FC20
 	.sbss       start:0x805DC500 end:0x805DC508
 
-AptInteger.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptValue/AptInteger.cpp:
 	.text       start:0x80333BE0 end:0x80333C58
 	.text       start:0x80333C58 end:0x80333CC8
 	.text       start:0x80333CC8 end:0x80333CD8
 	.data       start:0x8045FC20 end:0x8045FC68
 	.sbss       start:0x805DC508 end:0x805DC510
 
-AptValueVector.cpp:
+Tsc5/src/target/external/apt/source/Apt/AptValue/AptValueVector.cpp:
 	.text       start:0x80333CD8 end:0x80333E00
 	.text       start:0x80333E00 end:0x80333E14
 	.text       start:0x80333E14 end:0x80333E30
 
-EAString.cpp:
+Tsc5/src/target/external/apt/source/Apt/string/EAString.cpp:
 	.text       start:0x80333E30 end:0x80335268
 	.text       start:0x80335268 end:0x80335690
 	.data       start:0x8045FC68 end:0x8045FC78
 	.sbss       start:0x805DC510 end:0x805DC518
 
-StringPool.cpp:
+Tsc5/src/target/external/apt/source/Apt/string/StringPool.cpp:
 	.text       start:0x80335690 end:0x80337474
 	.text       start:0x80337474 end:0x80337484
 	.text       start:0x80337484 end:0x803374C0
@@ -2250,118 +2250,118 @@ StringPool.cpp:
 	.sdata      start:0x805DABE0 end:0x805DAEB8
 	.sbss       start:0x805DC518 end:0x805DC528
 
-ai.c:
+revolution/AI/ai.c:
 	.text       start:0x803374C0 end:0x80337A28
 	.data       start:0x804605E0 end:0x80460628
 	.sdata      start:0x805DAEB8 end:0x805DAEC0
 	.sbss       start:0x805DC528 end:0x805DC568
 
-arc.c:
+revolution/ARC/arc.c:
 	.text       start:0x80337A28 end:0x80337F34
 	.data       start:0x80460628 end:0x80460650
 	.sdata      start:0x805DAEC0 end:0x805DAEC8
 
-AX.c:
+revolution/AX/AX.c:
 	.text       start:0x80337F34 end:0x80337FD8
 	.data       start:0x80460650 end:0x80460698
 	.sdata      start:0x805DAEC8 end:0x805DAED0
 	.sbss       start:0x805DC568 end:0x805DC570
 
-AXAlloc.c:
+revolution/AX/AXAlloc.c:
 	.text       start:0x80337FD8 end:0x80338540
 	.bss        start:0x80545D48 end:0x80545E60
 	.sbss       start:0x805DC570 end:0x805DC578
 
-AXAux.c:
+revolution/AX/AXAux.c:
 	.text       start:0x80338540 end:0x80338D6C
 	.bss        start:0x80545E60 end:0x80548FE0
 	.sbss       start:0x805DC578 end:0x805DC5C0
 
-AXCL.c:
+revolution/AX/AXCL.c:
 	.text       start:0x80338D6C end:0x803397DC
 	.bss        start:0x80548FE0 end:0x805490E0
 	.sbss       start:0x805DC5C0 end:0x805DC5E0
 
-AXOut.c:
+revolution/AX/AXOut.c:
 	.text       start:0x803397DC end:0x8033A028
 	.bss        start:0x805490E0 end:0x80549EE0
 	.sbss       start:0x805DC5E0 end:0x805DC620
 
-AXSPB.c:
+revolution/AX/AXSPB.c:
 	.text       start:0x8033A028 end:0x8033A44C
 	.bss        start:0x80549EE0 end:0x80549F60
 	.sbss       start:0x805DC620 end:0x805DC670
 
-AXVPB.c:
+revolution/AX/AXVPB.c:
 	.text       start:0x8033A44C end:0x8033BA7C
 	.data       start:0x80460698 end:0x80460740
 	.bss        start:0x80549F60 end:0x8055B660
 	.sbss       start:0x805DC670 end:0x805DC690
 	.sdata2     start:0x805DF3A0 end:0x805DF3C0
 
-AXComp.c:
+revolution/AX/AXComp.c:
 	.data       start:0x80460740 end:0x80461700
 
-DSPCode.c:
+revolution/AX/DSPCode.c:
 	.data       start:0x80461700 end:0x80463700
 	.sdata      start:0x805DAED0 end:0x805DAED8
 
-AXProf.c:
+revolution/AX/AXProf.c:
 	.text       start:0x8033BA7C end:0x8033BABC
 	.sbss       start:0x805DC690 end:0x805DC6A0
 
-AXFXReverbHi.c:
+revolution/AXFX/AXFXReverbHi.c:
 	.text       start:0x8033BABC end:0x8033BB48
 	.sdata2     start:0x805DF3C0 end:0x805DF3C8
 
-AXFXReverbHiExp.c:
+revolution/AXFX/AXFXReverbHiExp.c:
 	.text       start:0x8033BB48 end:0x8033C920
 	.data       start:0x80463700 end:0x804638A0
 	.sdata2     start:0x805DF3C8 end:0x805DF408
 
-AXFXHooks.c:
+revolution/AXFX/AXFXHooks.c:
 	.text       start:0x8033C920 end:0x8033C958
 	.sdata      start:0x805DAED8 end:0x805DAEE0
 
-PPCArch.c:
+revolution/BASE/PPCArch.c:
 	.text       start:0x8033C958 end:0x8033CABC
 	.data       start:0x804638A0 end:0x804638D8
 
-gki_buffer.c:
+revolution/BTE/gki/common/gki_buffer.c:
 	.text       start:0x8033CABC end:0x8033DF00
 	.data       start:0x804638D8 end:0x80463A20
 
-gki_time.c:
+revolution/BTE/gki/common/gki_time.c:
 	.text       start:0x8033DF00 end:0x8033E458
 
-gki_ppc.c:
+revolution/BTE/rvl/gki_ppc.c:
 	.text       start:0x8033E458 end:0x8033E6E8
 	.bss        start:0x8055B660 end:0x80584140
 
-hcisu_h2.c:
+revolution/BTE/hci/src/hcisu_h2.c:
 	.text       start:0x8033E6E8 end:0x8033ED84
 	.rodata     start:0x80420210 end:0x80420228
 	.data       start:0x80463A20 end:0x80463A90
 	.bss        start:0x80584140 end:0x80584180
 	.sdata2     start:0x805DF408 end:0x805DF418
 
-uusb_ppc.c:
+revolution/BTE/rvl/uusb_ppc.c:
 	.text       start:0x8033ED84 end:0x80340260
 	.data       start:0x80463A90 end:0x804647D8
 	.bss        start:0x80584180 end:0x805861E0
 	.sdata      start:0x805DAEE0 end:0x805DAF00
 	.sbss       start:0x805DC6A0 end:0x805DC6B8
 
-bta_dm_cfg.c:
+revolution/BTE/bta/dm/bta_dm_cfg.c:
 	.rodata     start:0x80420228 end:0x804202B8
 	.sdata      start:0x805DAF00 end:0x805DAF18
 	.sbss2      start:0x805E00F0 end:0x805E00F8
 
-bta_hh_cfg.c:
+revolution/BTE/bta/hh/bta_hh_cfg.c:
 	.rodata     start:0x804202B8 end:0x804202C8
 	.sdata      start:0x805DAF18 end:0x805DAF28
 
-bta_sys_cfg.c:
+revolution/BTE/bta/sys/bta_sys_cfg.c:
 	.sdata      start:0x805DAF28 end:0x805DAF30
 	.sdata2     start:0x805DF418 end:0x805DF420
 
@@ -2369,15 +2369,15 @@ bte_hcisu.c:
 	.text       start:0x80340260 end:0x80340318
 	.sbss       start:0x805DC6B8 end:0x805DC6C0
 
-bte_init.c:
+revolution/BTE/main/bte_init.c:
 	.text       start:0x80340318 end:0x80340344
 
-bte_logmsg.c:
+revolution/BTE/main/bte_logmsg.c:
 	.text       start:0x80340344 end:0x803404A8
 	.bss        start:0x805861E0 end:0x805869C0
 	.sdata      start:0x805DAF30 end:0x805DAF38
 
-bte_main.c:
+revolution/BTE/main/bte_main.c:
 	.text       start:0x803404A8 end:0x80340600
 	.bss        start:0x805869C0 end:0x805879F0
 	.sdata      start:0x805DAF38 end:0x805DAF40
@@ -2389,111 +2389,111 @@ btu_task1.c:
 	.sdata      start:0x805DAF40 end:0x805DAF48
 	.sbss       start:0x805DC6C8 end:0x805DC6D0
 
-bd.c:
+revolution/BTE/bta/sys/bd.c:
 	.text       start:0x80340A50 end:0x80340B24
 	.sbss2      start:0x805E00F8 end:0x805E0100
 
-bta_sys_conn.c:
+revolution/BTE/bta/sys/bta_sys_conn.c:
 	.text       start:0x80340B24 end:0x80340D78
 
-bta_sys_main.c:
+revolution/BTE/bta/sys/bta_sys_main.c:
 	.text       start:0x80340D78 end:0x80340FBC
 	.data       start:0x804647D8 end:0x80464810
 	.bss        start:0x80587A78 end:0x80587B08
 	.sbss       start:0x805DC6D0 end:0x805DC6D8
 
-ptim.c:
+revolution/BTE/bta/sys/ptim.c:
 	.text       start:0x80340FBC end:0x8034119C
 
-utl.c:
+revolution/BTE/bta/sys/utl.c:
 	.text       start:0x8034119C end:0x803411E0
 
-bta_dm_act.c:
+revolution/BTE/bta/dm/bta_dm_act.c:
 	.text       start:0x803411E0 end:0x8034351C
 	.rodata     start:0x804202C8 end:0x80420370
 	.data       start:0x80464810 end:0x80464950
 	.bss        start:0x80587B08 end:0x80587B38
 	.sdata2     start:0x805DF420 end:0x805DF428
 
-bta_dm_api.c:
+revolution/BTE/bta/dm/bta_dm_api.c:
 	.text       start:0x8034351C end:0x80343988
 	.sdata2     start:0x805DF428 end:0x805DF438
 
-bta_dm_main.c:
+revolution/BTE/bta/dm/bta_dm_main.c:
 	.text       start:0x80343988 end:0x80343AE8
 	.rodata     start:0x80420370 end:0x80420498
 	.bss        start:0x80587B38 end:0x80587CB8
 
-bta_dm_pm.c:
+revolution/BTE/bta/dm/bta_dm_pm.c:
 	.text       start:0x80343AE8 end:0x80344504
 	.data       start:0x80464950 end:0x804649A0
 	.bss        start:0x80587CB8 end:0x80587CE8
 
-bta_hh_act.c:
+revolution/BTE/bta/hh/bta_hh_act.c:
 	.text       start:0x80344504 end:0x80345C4C
 	.data       start:0x804649A0 end:0x80464E98
 	.sdata      start:0x805DAF48 end:0x805DAF50
 
-bta_hh_api.c:
+revolution/BTE/bta/hh/bta_hh_api.c:
 	.text       start:0x80345C4C end:0x8034601C
 	.data       start:0x80464E98 end:0x80464EC8
 	.sdata2     start:0x805DF438 end:0x805DF440
 
-bta_hh_main.c:
+revolution/BTE/bta/hh/bta_hh_main.c:
 	.text       start:0x8034601C end:0x80346570
 	.rodata     start:0x80420498 end:0x80420520
 	.data       start:0x80464EC8 end:0x804651A8
 	.bss        start:0x80587CE8 end:0x80587F18
 
-bta_hh_utils.c:
+revolution/BTE/bta/hh/bta_hh_utils.c:
 	.text       start:0x80346570 end:0x8034691C
 	.data       start:0x804651A8 end:0x80465468
 
-btm_acl.c:
+revolution/BTE/stack/btm/btm_acl.c:
 	.text       start:0x8034691C end:0x80348660
 	.data       start:0x80465468 end:0x80465888
 
-btm_dev.c:
+revolution/BTE/stack/btm/btm_dev.c:
 	.text       start:0x80348660 end:0x80348D2C
 
-btm_devctl.c:
+revolution/BTE/stack/btm/btm_devctl.c:
 	.text       start:0x80348D2C end:0x8034A6B4
 	.data       start:0x80465888 end:0x80465AE8
 	.sdata      start:0x805DAF50 end:0x805DAF68
 
-btm_discovery.c:
+revolution/BTE/stack/btm/btm_discovery.c:
 	.text       start:0x8034A6B4 end:0x8034A7E8
 
-btm_inq.c:
+revolution/BTE/stack/btm/btm_inq.c:
 	.text       start:0x8034A7E8 end:0x8034C280
 	.data       start:0x80465AE8 end:0x80465CF8
 	.sdata2     start:0x805DF440 end:0x805DF448
 
-btm_main.c:
+revolution/BTE/stack/btm/btm_main.c:
 	.text       start:0x8034C280 end:0x8034C2DC
 	.bss        start:0x80587F18 end:0x8058A6E0
 
-btm_pm.c:
+revolution/BTE/stack/btm/btm_pm.c:
 	.text       start:0x8034C2DC end:0x8034CF70
 	.rodata     start:0x80420520 end:0x80420530
 	.data       start:0x80465CF8 end:0x80465D38
 	.sdata2     start:0x805DF448 end:0x805DF450
 
-btm_sco.c:
+revolution/BTE/stack/btm/btm_sco.c:
 	.text       start:0x8034CF70 end:0x8034DDA8
 	.rodata     start:0x80420530 end:0x80420540
 	.data       start:0x80465D38 end:0x80466038
 
-btm_sec.c:
+revolution/BTE/stack/btm/btm_sec.c:
 	.text       start:0x8034DDA8 end:0x80350D6C
 	.data       start:0x80466038 end:0x80466A48
 	.sdata2     start:0x805DF450 end:0x805DF458
 
-btu_hcif.c:
+revolution/BTE/stack/btu/btu_hcif.c:
 	.text       start:0x80350D6C end:0x80351FC8
 	.data       start:0x80466A48 end:0x80466AD8
 
-btu_init.c:
+revolution/BTE/stack/btu/btu_init.c:
 	.text       start:0x80351FC8 end:0x80352040
 	.sdata2     start:0x805DF458 end:0x805DF460
 
@@ -2513,7 +2513,7 @@ gap_utils.c:
 	.data       start:0x80466BA8 end:0x80466E98
 	.bss        start:0x8058A6E0 end:0x8058AA90
 
-hcicmds.c:
+revolution/BTE/stack/hcic/hcicmds.c:
 	.text       start:0x803532D8 end:0x803559F4
 	.rodata     start:0x80420540 end:0x80420550
 
@@ -2532,186 +2532,186 @@ hidd_mgmt.c:
 hidd_pm.c:
 	.text       start:0x80355BE4 end:0x80355F60
 
-hidh_api.c:
+revolution/BTE/stack/hid/hidh_api.c:
 	.text       start:0x80355F60 end:0x80356CE0
 	.data       start:0x80466EE8 end:0x80467000
 	.bss        start:0x8058ABD8 end:0x8058AFE0
 
-hidh_conn.c:
+revolution/BTE/stack/hid/hidh_conn.c:
 	.text       start:0x80356CE0 end:0x80358D20
 	.rodata     start:0x80420550 end:0x80420578
 	.data       start:0x80467000 end:0x804673E8
 
-l2c_api.c:
+revolution/BTE/stack/l2cap/l2c_api.c:
 	.text       start:0x80358D20 end:0x803598EC
 	.data       start:0x804673E8 end:0x80467B78
 
-l2c_csm.c:
+revolution/BTE/stack/l2cap/l2c_csm.c:
 	.text       start:0x803598EC end:0x8035ADC8
 	.data       start:0x80467B78 end:0x804683B0
 
-l2c_link.c:
+revolution/BTE/stack/l2cap/l2c_link.c:
 	.text       start:0x8035ADC8 end:0x8035BF54
 	.data       start:0x804683B0 end:0x80468620
 
-l2c_main.c:
+revolution/BTE/stack/l2cap/l2c_main.c:
 	.text       start:0x8035BF54 end:0x8035CF84
 	.data       start:0x80468620 end:0x80468920
 	.bss        start:0x8058AFE0 end:0x8058B7C8
 
-l2c_utils.c:
+revolution/BTE/stack/l2cap/l2c_utils.c:
 	.text       start:0x8035CF84 end:0x8035EE48
 	.data       start:0x80468920 end:0x80468A08
 	.sdata      start:0x805DAF70 end:0x805DAF80
 
-port_api.c:
+revolution/BTE/stack/rfcomm/port_api.c:
 	.text       start:0x8035EE48 end:0x8035EE98
 
-port_rfc.c:
+revolution/BTE/stack/rfcomm/port_rfc.c:
 	.text       start:0x8035EE98 end:0x80360294
 	.data       start:0x80468A08 end:0x80468D38
 
-port_utils.c:
+revolution/BTE/stack/rfcomm/port_utils.c:
 	.text       start:0x80360294 end:0x8036086C
 	.data       start:0x80468D38 end:0x80468E80
 
-rfc_l2cap_if.c:
+revolution/BTE/stack/rfcomm/rfc_l2cap_if.c:
 	.text       start:0x8036086C end:0x803611A0
 	.data       start:0x80468E80 end:0x80468FC0
 
-rfc_mx_fsm.c:
+revolution/BTE/stack/rfcomm/rfc_mx_fsm.c:
 	.text       start:0x803611A0 end:0x80361DE4
 	.data       start:0x80468FC0 end:0x80469278
 
-rfc_port_fsm.c:
+revolution/BTE/stack/rfcomm/rfc_port_fsm.c:
 	.text       start:0x80361DE4 end:0x80362F84
 	.data       start:0x80469278 end:0x804695A0
 
-rfc_port_if.c:
+revolution/BTE/stack/rfcomm/rfc_port_if.c:
 	.text       start:0x80362F84 end:0x803634B0
 	.bss        start:0x8058B7C8 end:0x8058BBE0
 
-rfc_ts_frames.c:
+revolution/BTE/stack/rfcomm/rfc_ts_frames.c:
 	.text       start:0x803634B0 end:0x80364AF8
 	.data       start:0x804695A0 end:0x80469678
 	.sdata      start:0x805DAF80 end:0x805DAF90
 
-rfc_utils.c:
+revolution/BTE/stack/rfcomm/rfc_utils.c:
 	.text       start:0x80364AF8 end:0x803652D8
 	.rodata     start:0x80420578 end:0x80420678
 	.data       start:0x80469678 end:0x80469708
 
-sdp_api.c:
+revolution/BTE/stack/sdp/sdp_api.c:
 	.text       start:0x803652D8 end:0x80366140
 	.data       start:0x80469708 end:0x80469758
 
-sdp_db.c:
+revolution/BTE/stack/sdp/sdp_db.c:
 	.text       start:0x80366140 end:0x80366E0C
 	.data       start:0x80469758 end:0x804697F0
 
-sdp_discovery.c:
+revolution/BTE/stack/sdp/sdp_discovery.c:
 	.text       start:0x80366E0C end:0x80368084
 	.data       start:0x804697F0 end:0x80469950
 
-sdp_main.c:
+revolution/BTE/stack/sdp/sdp_main.c:
 	.text       start:0x80368084 end:0x80368BF0
 	.data       start:0x80469950 end:0x80469CB0
 	.bss        start:0x8058BBE0 end:0x80590240
 
-sdp_server.c:
+revolution/BTE/stack/sdp/sdp_server.c:
 	.text       start:0x80368BF0 end:0x80369900
 	.data       start:0x80469CB0 end:0x80469CF0
 
-sdp_utils.c:
+revolution/BTE/stack/sdp/sdp_utils.c:
 	.text       start:0x80369900 end:0x8036A940
 	.rodata     start:0x80420678 end:0x80420688
 	.data       start:0x80469CF0 end:0x80469DE8
 
-db.c:
+revolution/DB/db.c:
 	.text       start:0x8036A940 end:0x8036AA28
 	.data       start:0x80469DE8 end:0x80469E00
 	.sbss       start:0x805DC6D8 end:0x805DC6E0
 
-dsp.c:
+revolution/DSP/dsp.c:
 	.text       start:0x8036AA28 end:0x8036ACA4
 	.data       start:0x80469E00 end:0x80469E80
 	.sdata      start:0x805DAF90 end:0x805DAF98
 	.sbss       start:0x805DC6E0 end:0x805DC6E8
 
-dsp_debug.c:
+revolution/DSP/dsp_debug.c:
 	.text       start:0x8036ACA4 end:0x8036ACF4
 
-dsp_task.c:
+revolution/DSP/dsp_task.c:
 	.text       start:0x8036ACF4 end:0x8036B588
 	.data       start:0x80469E80 end:0x80469FC0
 	.sbss       start:0x805DC6E8 end:0x805DC700
 
-dvdfs.c:
+revolution/DVD/dvdfs.c:
 	.text       start:0x8036B588 end:0x8036BFD0
 	.data       start:0x80469FC0 end:0x8046A128
 	.sdata      start:0x805DAF98 end:0x805DAFA8
 	.sbss       start:0x805DC700 end:0x805DC720
 
-dvd.c:
+revolution/DVD/dvd.c:
 	.text       start:0x8036BFD0 end:0x803704B8
 	.data       start:0x8046A128 end:0x8046A3B8
 	.bss        start:0x80590240 end:0x80594E10
 	.sdata      start:0x805DAFA8 end:0x805DAFC0
 	.sbss       start:0x805DC720 end:0x805DC7A8
 
-dvdqueue.c:
+revolution/DVD/dvdqueue.c:
 	.text       start:0x803704B8 end:0x80370710
 	.bss        start:0x80594E10 end:0x80594E40
 
-dvderror.c:
+revolution/DVD/dvderror.c:
 	.text       start:0x80370710 end:0x80370A18
 	.data       start:0x8046A3B8 end:0x8046A3E8
 	.bss        start:0x80594E40 end:0x80595020
 	.sbss       start:0x805DC7A8 end:0x805DC7B0
 
-dvdidutils.c:
+revolution/DVD/dvdidutils.c:
 	.text       start:0x80370A18 end:0x80370B08
 
-dvdFatal.c:
+revolution/DVD/dvdfatal.c:
 	.text       start:0x80370B08 end:0x80370C44
 	.rodata     start:0x80420688 end:0x804206A8
 	.data       start:0x8046A3E8 end:0x8046A898
 	.sbss       start:0x805DC7B0 end:0x805DC7B8
 	.sdata2     start:0x805DF460 end:0x805DF468
 
-dvd_broadway.c:
+revolution/DVD/dvd_broadway.c:
 	.text       start:0x80370C44 end:0x80372630
 	.data       start:0x8046A898 end:0x8046B490
 	.bss        start:0x80595020 end:0x80595180
 	.sdata      start:0x805DAFC0 end:0x805DAFD0
 	.sbss       start:0x805DC7B8 end:0x805DC7E0
 
-euart.c:
+revolution/EUART/euart.c:
 	.text       start:0x80372630 end:0x803729A0
 	.sbss       start:0x805DC7E0 end:0x805DC7F0
 
-EXIBios.c:
+revolution/EXI/EXIBios.c:
 	.text       start:0x803729A0 end:0x80374234
 	.data       start:0x8046B490 end:0x8046B4D8
 	.bss        start:0x80595180 end:0x80595240
 	.sdata      start:0x805DAFD0 end:0x805DAFD8
 	.sbss       start:0x805DC7F0 end:0x805DC7F8
 
-EXIUart.c:
+revolution/EXI/EXIUart.c:
 	.text       start:0x80374234 end:0x80374568
 	.sbss       start:0x805DC7F8 end:0x805DC808
 
-EXICommon.c:
+revolution/EXI/EXICommon.c:
 	.text       start:0x80374568 end:0x803746F4
 	.sdata2     start:0x805DF468 end:0x805DF470
 
-fs.c:
+revolution/FS/fs.c:
 	.text       start:0x803746F4 end:0x80375A0C
 	.data       start:0x8046B4D8 end:0x8046B500
 	.sdata      start:0x805DAFD8 end:0x805DAFE8
 	.sbss       start:0x805DC808 end:0x805DC820
 
-GXInit.c:
+revolution/GX/GXInit.c:
 	.text       start:0x80375A0C end:0x80376BD4
 	.data       start:0x8046B500 end:0x8046B740
 	.bss        start:0x80595240 end:0x805958C0
@@ -2719,61 +2719,61 @@ GXInit.c:
 	.sbss       start:0x805DC820 end:0x805DC848
 	.sdata2     start:0x805DF470 end:0x805DF498
 
-GXFifo.c:
+revolution/GX/GXFifo.c:
 	.text       start:0x80376BD4 end:0x80377834
 	.data       start:0x8046B740 end:0x8046B770
 	.bss        start:0x805958C0 end:0x80595908
 	.sbss       start:0x805DC848 end:0x805DC868
 
-GXAttr.c:
+revolution/GX/GXAttr.c:
 	.text       start:0x80377834 end:0x80378A58
 	.data       start:0x8046B770 end:0x8046B9E8
 	.sdata      start:0x805DAFF0 end:0x805DB000
 
-GXMisc.c:
+revolution/GX/GXMisc.c:
 	.text       start:0x80378A58 end:0x80379288
 	.sbss       start:0x805DC868 end:0x805DC880
 
-GXGeometry.c:
+revolution/GX/GXGeometry.c:
 	.text       start:0x80379288 end:0x80379824
 
-GXFrameBuf.c:
+revolution/GX/GXFrameBuf.c:
 	.text       start:0x80379824 end:0x8037A39C
 	.data       start:0x8046B9E8 end:0x8046BB18
 	.sdata2     start:0x805DF498 end:0x805DF4A8
 
-GXLight.c:
+revolution/GX/GXLight.c:
 	.text       start:0x8037A39C end:0x8037A908
 	.data       start:0x8046BB18 end:0x8046BB38
 	.sdata2     start:0x805DF4A8 end:0x805DF4D8
 
-GXTexture.c:
+revolution/GX/GXTexture.c:
 	.text       start:0x8037A908 end:0x8037B7C8
 	.data       start:0x8046BB38 end:0x8046BD60
 	.sdata      start:0x805DB000 end:0x805DB040
 	.sdata2     start:0x805DF4D8 end:0x805DF500
 
-GXBump.c:
+revolution/GX/GXBump.c:
 	.text       start:0x8037B7C8 end:0x8037BC14
 	.sdata2     start:0x805DF500 end:0x805DF508
 
-GXTev.c:
+revolution/GX/GXTev.c:
 	.text       start:0x8037BC14 end:0x8037C294
 	.data       start:0x8046BD60 end:0x8046BDD8
 
-GXPixel.c:
+revolution/GX/GXPixel.c:
 	.text       start:0x8037C294 end:0x8037C898
 	.data       start:0x8046BDD8 end:0x8046BDF8
 	.sdata2     start:0x805DF508 end:0x805DF540
 
-GXDisplayList.c:
+revolution/GX/GXDisplayList.c:
 	.text       start:0x8037C898 end:0x8037C90C
 
-GXTransform.c:
+revolution/GX/GXTransform.c:
 	.text       start:0x8037C90C end:0x8037CDFC
 	.sdata2     start:0x805DF540 end:0x805DF558
 
-GXPerf.c:
+revolution/GX/GXPerf.c:
 	.text       start:0x8037CDFC end:0x8037D638
 	.data       start:0x8046BDF8 end:0x8046BEE8
 
@@ -3554,7 +3554,7 @@ revolution/SC/scsystem.c:
 	.sdata      start:0x805DB490 end:0x805DB590
 	.sbss       start:0x805DCB98 end:0x805DCBB0
 
-evolution/SC/:
+revolution/SC/scapi.c:
 	.text       start:0x803EAD1C end:0x803EB0E0
 
 revolution/SC/scapi_prdinfo.c:
